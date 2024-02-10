@@ -1,8 +1,8 @@
 import config from './config.js'
 
 const development =
-    location.host.search(/.+\.github\.io/) === -1 ||
-    location.host.search(/calibur\.cfd/) === -1 ||
+    location.host.search(/.+\.github\.io/) === -1 &&
+    location.host.search(/calibur\.cfd/) === -1 &&
     location.host.search(/.+\.angforever\.top/) === -1
 const domParser = new DOMParser()
 /** @type {string[]} */
@@ -145,6 +145,7 @@ async function initgallery() {
      */
 
     // 开发环境(使用 live server)
+    development = 1
     if (development) {
         for (const i of domParser
             .parseFromString((await get('../meme/')).response, 'text/html')

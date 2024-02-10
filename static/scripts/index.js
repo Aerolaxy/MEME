@@ -140,13 +140,13 @@ async function initgallery() {
     view()
 }
 
-;(async () => {
+;(async () => {             
     /**
      * 判断使用何种 API , 获取图片列表
      */
 
     // 开发环境(使用 live server
-    if (development) {
+    if (development) {            
         for (const i of domParser
             .parseFromString((await get('../meme/')).response, 'text/html')
             .querySelectorAll('#files a.icon-image')) {

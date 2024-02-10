@@ -40,7 +40,7 @@ cat > "text/index.html" <<EOF
 
 <body>
     <main class="container">
-        <h1>群友 梗 | <a href="https://calibur-dx.github.io/MEME/">图片梗</a></h1>
+        <h1>群友 梗 | <a href="https://aerolaxy.github.io/MEME/">图片梗</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
@@ -64,7 +64,7 @@ cat >> "text/index.html" <<EOF
 
         <footer id="footer">
             <p>· 群 · 堂堂连载 ·</p>
-            <p><a href="https://github.dev/CALIBUR-Dx/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
+            <p><a href="https://github.dev/aerolaxy/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
         </footer>
     </main>
 </body>

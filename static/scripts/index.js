@@ -1,7 +1,6 @@
 import config from './config.js'
 
 const development = 
-    
     location.host.search(/.+\.github\.io/) === -1 &&
     location.host.search(/calibur\.cfd/) === -1 &&
     location.host.search(/.+\.angforever\.top/) === -1

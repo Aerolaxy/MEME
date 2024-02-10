@@ -33,7 +33,7 @@ do
 
 <body>
     <main class="container">
-        <h1>群友们的日常 | <a href="https://calibur-dx.github.io/MEME/text">图片梗</a></h1>
+        <h1>群友们的日常 | <a href="https://aerolaxy.github.io/MEME/text">图片梗</a></h1>
         <article id="view">
             <github-md>
 EOF

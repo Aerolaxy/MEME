@@ -26,9 +26,9 @@ cat > "text/index.html" <<EOF
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="咖喱窝群友的日常">
+    <meta name="description" content="群友的日常">
     <link rel="icon" href="/static/favicon.ico">
-    <title>咖喱窝群友 梗 | 咖喱窝群友 的日常</title>
+    <title>群友 梗 | 群友 的日常</title>
     <link rel="stylesheet" href="https://cdn.staticfile.net/picocss/1.5.0/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
@@ -40,11 +40,11 @@ cat > "text/index.html" <<EOF
 
 <body>
     <main class="container">
-        <h1>咖喱窝群友 梗 | <a href="https://calibur-dx.github.io/MEME/">图片梗</a></h1>
+        <h1>群友 梗 | <a href="https://calibur-dx.github.io/MEME/">图片梗</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
-> 这里收集了一些 咖喱窝群友 相关的文字梗。
+> 这里收集了一些 群友 相关的文字梗。
 >
 > 主要内容包括特定的事件或话题。
 
@@ -63,7 +63,7 @@ cat >> "text/index.html" <<EOF
         </article>
 
         <footer id="footer">
-            <p>· 咖喱窝群 · 堂堂连载 ·</p>
+            <p>· 群 · 堂堂连载 ·</p>
             <p><a href="https://github.dev/CALIBUR-Dx/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
         </footer>
     </main>

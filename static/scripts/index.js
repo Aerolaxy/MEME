@@ -1,9 +1,11 @@
 import config from './config.js'
 
-const development =
+const development = true
+    /***
     location.host.search(/.+\.github\.io/) === -1 &&
     location.host.search(/calibur\.cfd/) === -1 &&
     location.host.search(/.+\.angforever\.top/) === -1
+    ***/
 const domParser = new DOMParser()
 /** @type {string[]} */
 let items = []
@@ -144,8 +146,7 @@ async function initgallery() {
      * 判断使用何种 API , 获取图片列表
      */
 
-    // 开发环境(使用 live server)
-    development = true
+    // 开发环境(使用 live server
     if (development) {
         for (const i of domParser
             .parseFromString((await get('../meme/')).response, 'text/html')

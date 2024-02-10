@@ -147,7 +147,7 @@ async function initgallery() {
      */
 
     // 开发环境(使用 live server
-    if (development) {
+    //if (development) {
         for (const i of domParser
             .parseFromString((await get('../meme/')).response, 'text/html')
             .querySelectorAll('#files a.icon-image')) {
@@ -159,11 +159,11 @@ async function initgallery() {
                         )[0]
                     )
             )
-        }
-    } else {
+      //  }
+    /**} else {
         // 生产环境(使用静态文件)
         items = config.items
-    }
+    }**/
 
     initgallery()
     window.addEventListener('hashchange', view)

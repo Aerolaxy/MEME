@@ -145,7 +145,7 @@ async function initgallery() {
      */
 
     // 开发环境(使用 live server)
-    development = 0
+    development = true
     if (development) {
         for (const i of domParser
             .parseFromString((await get('../meme/')).response, 'text/html')

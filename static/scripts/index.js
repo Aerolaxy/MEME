@@ -120,7 +120,7 @@ function view() {
 async function initgallery() {
     document.getElementById(
         'description'
-    ).innerHTML = ` 咖喱窝群友们的日常，目前已有 ${items.length} 张。`
+    ).innerHTML = ` 鸡窝群友们的日常，目前已有 ${items.length} 张。`
     document.getElementById('refresh-btn').onclick = () => {
         location.hash = `#${
             items[random(items.length - 1, 0)].match(

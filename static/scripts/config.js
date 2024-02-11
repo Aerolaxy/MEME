@@ -17,6 +17,7 @@ export default {
     "meme/恰鸡鸡.png",
     "meme/援交鸡.png",
     "meme/有南通.jpg",
+    "meme/没人要的垃圾.png",
     "meme/涩牛魔.png",
     "meme/烧姑妈.jpg",
     "meme/烧老登.jpg",

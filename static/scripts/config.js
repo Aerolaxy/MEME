@@ -5,6 +5,8 @@ export default {
     "meme/hotfix",
     "meme/superpx.jpg",
     "meme/不知名南通.png",
+    "meme/人前人后.png",
+    "meme/他现在唉.png",
     "meme/似去的蓝瞳.png",
     "meme/傲娇px.png",
     "meme/别让爱成为等待.jpg",
